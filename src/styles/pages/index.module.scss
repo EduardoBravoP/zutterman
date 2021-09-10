@@ -1,0 +1,43 @@
+.graySection {
+  height: 100vh;
+  background-color: var(--gray-200);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}
+
+.blueSection {
+  height: 100vh;
+  background-color: var(--blue-500);
+  background-image: url("../../../public/MeasuringTape2.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+
+  div {
+    max-width: 493px;
+    position: absolute;
+    color: var(--white);
+    left: 159px;
+    bottom: 216px;
+
+    h1 {
+      font-size: 4.3rem;
+    }
+
+    p {
+      font-size: 3rem;
+    }
+  }
+}
