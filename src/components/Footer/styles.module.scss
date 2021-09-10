@@ -1,0 +1,28 @@
+.container {
+  height: 226px;
+  padding-left: 151px;
+
+  display: flex;
+  align-items: center;
+
+  .wrapper {
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socials {
+    display: flex;
+    gap: 22px;
+  }
+
+  .contact {
+    max-width: 121px;
+  }
+
+  h3 {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+  }
+}
