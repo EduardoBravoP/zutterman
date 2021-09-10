@@ -7,9 +7,13 @@
   justify-content: space-between;
   align-items: center;
 
-  .image {
+  .logo {
     width: 16rem;
     height: 4rem;
+  }
+
+  .miniLogo {
+    display: none;
   }
 
   .links {
@@ -17,5 +21,25 @@
 
     display: flex;
     gap: 127px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    .links {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    .logo {
+      display: none;
+    }
+
+    .miniLogo {
+      display: initial;
+    }
   }
 }
