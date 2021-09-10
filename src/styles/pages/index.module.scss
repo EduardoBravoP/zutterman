@@ -1,6 +1,7 @@
 .graySection {
   height: 100vh;
   background-color: var(--gray-200);
+  padding: 0 70px 0 70px;
 
   display: flex;
   align-items: center;
@@ -38,6 +39,33 @@
 
     p {
       font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .graySection {
+    div {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .blueSection {
+    padding-top: 76px;
+    background-position: bottom;
+    background-size: 700px;
+
+    display: flex;
+    justify-content: center;
+
+    div {
+      position: initial;
+
+      h1 {
+        margin-bottom: 22px;
+      }
     }
   }
 }
