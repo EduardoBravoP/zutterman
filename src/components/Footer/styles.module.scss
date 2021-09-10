@@ -27,3 +27,25 @@
     font-size: 1.7rem;
   }
 }
+
+@media (max-width: 740px) {
+  .container {
+    height: initial;
+    padding: 41px 0 53px 0;
+    justify-content: center;
+
+    .wrapper {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .socials {
+      margin-bottom: 40px;
+    }
+
+    h3,
+    p {
+      text-align: center;
+    }
+  }
+}
