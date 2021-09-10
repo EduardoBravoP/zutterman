@@ -1,12 +1,13 @@
 .container {
   height: 226px;
-  padding-left: 151px;
+  padding: 0 151px 0 151px;
 
   display: flex;
   align-items: center;
 
   .wrapper {
-    width: 35%;
+    width: 100%;
+    max-width: 600px;
 
     display: flex;
     justify-content: space-between;
