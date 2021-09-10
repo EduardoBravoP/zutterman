@@ -1,0 +1,21 @@
+.container {
+  height: 110px;
+  background-color: var(--white);
+  padding: 0 64px 0 53px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .image {
+    width: 16rem;
+    height: 4rem;
+  }
+
+  .links {
+    color: var(--brown-500);
+
+    display: flex;
+    gap: 127px;
+  }
+}
