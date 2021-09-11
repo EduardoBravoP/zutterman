@@ -9,9 +9,24 @@ export default function Footer() {
         <div>
           <h3>Follow Us</h3>
           <div className={styles.socials}>
-            <Image alt="Youtube" src="/youtube.svg" width={43} height={43} />
-            <Image alt="Facebook" src="/facebook.svg" width={43} height={43} />
-            <Image alt="Twitter" src="/twitter.svg" width={43} height={43} />
+            <a href="https://youtube.com/" target="_blank" rel="noreferrer">
+              <Image alt="Youtube" src="/youtube.svg" width={43} height={43} />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                alt="Facebook"
+                src="/facebook.svg"
+                width={43}
+                height={43}
+              />
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              <Image alt="Twitter" src="/twitter.svg" width={43} height={43} />
+            </a>
           </div>
         </div>
 
