@@ -1,8 +1,11 @@
 import Image from "next/image";
+import { useState } from "react";
 
 import styles from "./styles.module.scss";
 
 export default function Header() {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <header className={styles.container}>
       <div className={styles.logo}>
@@ -30,6 +33,30 @@ export default function Header() {
         <a href="#">MODELS</a>
         <a href="#">GUARANTEE</a>
       </div>
+
+      <div className={styles.menuButton} onClick={() => setShowMenu(true)}>
+        <Image alt="Menu" src="/menu.svg" width={6} height={26} />
+      </div>
+
+      {showMenu && (
+        <div className={styles.menu}>
+          <div className={styles.x}>
+            <Image
+              alt="Fechar"
+              src="/x.svg"
+              width={25}
+              height={25}
+              onClick={() => setShowMenu(false)}
+            />
+          </div>
+
+          <div>
+            <a href="#">ABOUT US</a>
+            <a href="#">MODELS</a>
+            <a href="#">GUARANTEE</a>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
