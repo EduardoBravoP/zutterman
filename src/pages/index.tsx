@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/Head";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,6 +9,10 @@ import styles from "../styles/pages/index.module.scss";
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Zutterman</title>
+      </Head>
+
       <Header />
 
       <section className={styles.graySection}>
