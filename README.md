@@ -12,7 +12,7 @@
 
 ## Como ver a aplicação:
 
-- Acesse pelo link: (link)
+- Acesse pelo link: https://zutterman.vercel.app/
 
 - Ou siga o passo-a-passo para rodar em sua máquina:
 
