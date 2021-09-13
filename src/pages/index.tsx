@@ -20,6 +20,7 @@ const Home: NextPage = () => {
             src="/MeasuringTape1.png"
             width={682}
             height={335}
+            priority
           />
         </div>
       </section>
