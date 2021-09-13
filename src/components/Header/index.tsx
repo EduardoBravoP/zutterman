@@ -47,6 +47,7 @@ export default function Header() {
               width={25}
               height={25}
               onClick={() => setShowMenu(false)}
+              priority
             />
           </div>
 
